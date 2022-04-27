@@ -1,0 +1,87 @@
+.rendezvous{
+    
+    height: 90vh;
+    display: flex;
+}
+.rendezvous .imageside{
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rendezvous .formside{
+    
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: rgb(224, 233, 241);
+    float:right;
+    justify-content: right;
+    width: 700px;
+    
+}
+
+.rendezvous .formside h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 5;
+    font-size: 20px;
+    margin-left: 30px;
+    
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+
+form input{
+    height: 30px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    background-color: rgb(224, 233, 241);
+}
+
+select{
+    height: 30px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    background-color: rgb(224, 233, 241);
+}
+
+input::placeholder{
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+form input:focus{
+    outline: none;
+  }
+  form label {
+    margin-top: 15px;
+    color: grey;
+  }
+
+  form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  form button:hover{
+      background-color:rgb(93, 255, 29); 
+  }

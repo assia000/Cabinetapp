@@ -1,0 +1,35 @@
+body{
+    background-color: #F5F5F5 ;
+}
+.apro .img1{
+    float: left;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+.apro .img2{
+    float: right;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.cli{
+    float : left;
+}
+.cli ul li{
+    text-decoration: dashed;
+}
+.apro h1{
+    font-weight: normal;
+    font-size:33px;
+    color: rgb(0, 212, 212);
+}
+.apro{
+    font-size: small;
+    margin-left: 25px;
+    text-align: left;
+    color: grey
+}
